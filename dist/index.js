@@ -1,10 +1,21 @@
 "use strict";
-console.log('hello world');
-let age = 21;
-console.log(age);
-const add = (a, b) => {
-    if (a < 5)
-        return "cannot add this";
-    return a += b;
+let firstName = 'pami';
+firstName = 'loggy';
+let lastName = 'Singh';
+let a = 'boom';
+a = 69;
+a = true;
+let b = 'hello';
+b = 69;
+b = ['hello', 1, 'world'];
+const run = (num, str = 'hello') => {
+    return num + str;
 };
-console.log(add(10, 8));
+console.log(run(60));
+let student1 = {
+    name: 'Abhishek',
+    age: 21,
+    profession: 'developer',
+    num: 69
+};
+console.log(student1);
