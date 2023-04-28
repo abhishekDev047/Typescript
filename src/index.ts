@@ -50,4 +50,21 @@
 
 //Day 3
 
+// let arr: readonly string[] = ['hello','ji','sir ji']
+// console.log(typeof(arr));;
 
+
+// let arr2 = [1,2,3,4,5];
+// arr2.push(69);
+
+// let tuples: readonly [number, string, boolean] = [69,'Abhishek Kumar', true];
+
+// // tuples.push('hello');
+// console.log(tuples);
+
+// let graph: [number, number] = [44,44]
+
+// let [a,b]= graph
+// console.log([a,b]);
+
+// // for day 4 = TS objectType
