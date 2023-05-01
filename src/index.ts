@@ -67,4 +67,77 @@
 // let [a,b]= graph
 // console.log([a,b]);
 
-// // for day 4 = TS objectType
+// Day 4 
+
+const car:{ type:string , millage:number} ={
+    type:'toyota',
+    millage:21
+}
+car.millage = 27;
+// console.log(car.millage)
+
+const names:{[index:string]:number} ={}
+
+names.jake=69;
+names.rupa = 90;
+console.log(names);
+
+//enum  numeric 
+
+enum dir {
+    north,
+    south,
+    east,
+    west
+}
+console.log(dir)
+
+// enum string  must have initializer .
+
+enum pami {
+    north='hello',
+    east='lelo',
+    south='lelo',
+    west='lelo'
+};
+
+interface item{
+    type : number,
+    name: string,
+    age : number
+};
+const here :item = {
+    type:56,
+    name:'abhishek',
+    age:21
+};
+console.log(here);
+
+const run = (x:string|number)=>{
+    console.log(x)
+};
+run(4)
+
+function make0():string {
+    return 'hello world'
+};
+// const make = ():number =>{
+//     return 4
+// };
+const make = (a:number,b:number,c?:number):number =>{
+    return a+b+(c||0)
+};
+
+
+type hello = (value:number)=>number;
+
+const boom:hello=(x=69)=>{
+return x
+};
+
+const func = (x:number):number =>{
+    return x
+}
+const func2 = (a:string):string=>{
+return a
+};
