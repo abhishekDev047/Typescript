@@ -141,4 +141,23 @@
 // const func2 = (a:string):string=>{
 // return a
 // };
-// TS Casting for day 5
+
+// day 5
+
+//casting 
+
+// let x : unknown = 'hello';
+// console.log((x as string))
+
+// let y :unknown = 'world'
+// // console.log(typeof(<string>y))  this will not work with TSX files, like when i am working in react so i can not use this <> casting
+// console.log(typeof(y))
+
+// class Person {
+// name :string='boom';
+// }
+
+// const person = new Person();
+// person.name = 'jake'
+
+//TS Basic Generic for day 6
